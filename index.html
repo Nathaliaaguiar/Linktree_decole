@@ -148,6 +148,24 @@
 
         box-shadow: 0 8px 25px rgba(28, 45, 90, .12);
     }
+   /* LOCALIZAÇÃO */
+.local {
+    background: #ffffff;
+    color: var(--primary-blue);
+    border: 2px solid var(--primary-red);
+}
+
+.local .icone-local {
+    position: absolute;
+    left: 22px;
+    width: 20px;
+    height: 22px;
+    color: var(--primary-red);
+}
+
+.local:hover {
+    background: #fff5f5;
+}
 
     .link:hover {
         transform: translateY(-3px) scale(1.01);
@@ -354,6 +372,18 @@
 >
     <i class="fa-brands fa-tiktok"></i>
     Siga a DECOLE no TikTok
+</a>
+<!-- LOCALIZAÇÃO -->
+<a
+    class="link local"
+    href="https://www.google.com/maps/search/?api=1&query=Av.+Ab%C3%ADlio+Augusto+T%C3%A1vora%2C+26+-+Jardim+Para%C3%ADso%2C+Nova+Igua%C3%A7u+-+RJ%2C+26297-006"
+    target="_blank"
+    rel="noopener"
+>
+    <svg class="icone-local" viewBox="0 0 384 512" aria-hidden="true">
+        <path fill="currentColor" d="M215.7 499.2C267 435 384 279.4 384 192 384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2 12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+    </svg>
+    Como chegar – Google Maps
 </a>
 
         </div>
